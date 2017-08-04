@@ -11,6 +11,10 @@ public class Fifth {
 		BigDecimal b2=new BigDecimal(Double.toString(value2));
 		return b1.add(b2);
 	}
+	public static BigDecimal add(double value1) {
+		BigDecimal b1=new BigDecimal(Double.toString(value1));
+		return b1;
+	}
 	public static char getrandom(char min,char max) {
 		return (char)(min+Math.random()*(max-min));
 	}
